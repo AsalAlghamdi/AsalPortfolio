@@ -1,0 +1,794 @@
+body {
+    background-color: #FFF2E2;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.pink {
+    background: #F4B798;
+}
+.blue {
+    background: #4F7E84;
+}
+.orange {
+    background: #F2C87E;
+}
+.blue_leaf {
+    position: absolute;
+    width: 72%; height: 40%;
+    background-image: url("../img/blue leaf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.white_leaf {
+    position: absolute;
+    width: 72%; height: 40%;
+    background-image: url("../img/white leaf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec {
+    width: 100%; 
+    height:100vh; 
+    position: relative;}
+
+a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width:767px){
+    /*-------HEADER--------*/
+    .box1 {
+        position: absolute;
+        width: 70%; 
+        height: 60%;
+        top:0; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        margin: auto;
+    }
+    #box1_pink { 
+        top:5%; 
+        left:10%;
+    }
+    #box1_blue { 
+        top:15%; 
+        right:15%; 
+    }
+    .fst_txt {
+        position: absolute;
+        width: 250px; 
+        height: 150px;
+        top:0;
+        bottom: 0; 
+        left: 0; 
+        right: 10%; 
+        margin: auto;
+        color: #FFFFFF;
+        font-size: 150%;
+        font-family: Arial;
+        font-style: italic;
+        line-height: 50%;
+    }
+    .fst_txt>h4 {
+        font-size: 80%;
+        font-style: normal;
+    }
+    .img1 {
+        width: 90%; 
+        height: 45%; 
+        -ms-transform: rotate(200deg); /* IE 9 */
+        -webkit-transform: rotate(200deg); /* Safari prior 9.0 */
+        transform: rotate(200deg);
+        top: 1%;
+        left: 55%;
+    }
+    .img2 {
+        -ms-transform: rotate(40deg); /* IE 9 */
+        -webkit-transform: rotate(40deg); /* Safari prior 9.0 */
+        transform: rotate(40deg);
+        top: 70%;
+        right: 50%;
+    }
+    #hWithLogo {
+        display: inline;
+    }
+    #logo {
+        width: 10%;
+    }
+    /*-------ABOUT ME--------*/
+    .box2 {
+        position: absolute;
+        width: 200%; 
+        height: 50%;
+        top: 10%; 
+        bottom: 0; 
+        left: -70%; 
+        right: 0; 
+        margin: 0 auto;
+        -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Safari prior 9.0 */
+        transform: rotate(20deg);
+        z-index: 1;
+    }
+    .scnd {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scnd_txt {
+        width: 95%;
+        color: #F4B798;
+        font-size: 130%;
+        line-height: 50%;
+        z-index: 1;
+    }
+    .scnd_txt> p {
+        width: 85%;
+        margin-left: 7%;
+        padding: 3%;
+        font-size: 100%;
+        line-height: 130%;
+        border: 1px solid #F4B798;
+    }
+    .img3 {
+        width: 90%; 
+        height: 45%;
+        -ms-transform: rotate(250deg); /* IE 9 */
+        -webkit-transform: rotate(250deg); /* Safari prior 9.0 */
+        transform: rotate(250deg);
+        top: 0;
+        left: 70%;
+        z-index: 1;
+    }
+    .img4 {
+        -ms-transform: rotate(320deg); /* IE 9 */
+        -webkit-transform: rotate(320deg); /* Safari prior 9.0 */
+        transform: rotate(320deg);
+        top: 60%;
+        right: 60%;
+        z-index: 1;
+    }
+    /*-------WORKS--------*/
+    .box3 {
+        position: absolute;
+        width: 200%; 
+        height: 40%;
+        top: 20%; 
+        bottom: 0; 
+        left: -50%; 
+        right: 0; 
+        margin: 0 auto;
+        -ms-transform: rotate(320deg); /* IE 9 */
+        -webkit-transform: rotate(320deg); /* Safari prior 9.0 */
+        transform: rotate(320deg);
+        z-index: -1;
+        background: #FBE7CC;
+    }
+    .thrd {
+       color: #F4B798;
+       font-size: 105%;
+       height: 90vh;
+    }
+    .thrd> h1 {
+        padding-top: 10%; 
+        padding-left: 3%;
+    } 
+    .works {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .work {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        color: white;
+        font-size: 130%;
+    }
+    .work> p {
+        padding-left: 10%;
+    }
+    .w1 {
+        background-image: url("../img/After Long Day.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .articals {
+        display: flex; 
+        flex-wrap: wrap; 
+        width: 100%; 
+        overflow-x: scroll;
+        align-items: center;
+        justify-content: center;
+    }
+    .ar1 {
+        height: 100px;
+        background: #F7A969;
+    }
+    .ar2 {
+        height: 100px; 
+        background: #BADCCB;
+    }
+    .ar12 {
+        width: 55%; 
+    }
+    .ar3 {
+        width: 45%; 
+        height: 200px; 
+        background: #61AB9C;
+    }
+    .artical{
+        display: flex; 
+        align-items: center; 
+        position: relative; 
+    }
+    .artical>p {
+        color: white;
+        font-size: 130%;
+        margin: 0 auto;
+        padding-left: 10%;
+        z-index: 1;
+    }
+    .artical>img {
+        position: absolute;
+        height: 60%;
+        opacity: 0.7;
+    }
+    .ar1>img {
+        top: 30%;
+        left: 70%;
+    }
+    .ar2>img {
+        top: 30%;
+        left: 70%;
+    }
+    .ar3>img {
+        top: 30%;
+        left: 28%;
+    }
+    .img5 {
+        width: 90%; 
+        height: 45%;
+        -ms-transform: rotate(330deg); /* IE 9 */
+        -webkit-transform: rotate(330deg); /* Safari prior 9.0 */
+        transform: rotate(330deg);
+        top: 70%;
+        left: 50%;
+        z-index: -1;
+    }
+    /*-------FOOTER--------*/
+    footer {
+        color: white;
+        position: relative;
+        font-size: 120%;
+        text-align: center;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        overflow: hidden;
+    }
+    footer> img {
+        width: 70%;
+        position: absolute;
+        bottom: 0%;
+        right: 60%;
+        opacity: 0.7;
+        -ms-transform: rotate(30deg); /* IE 9 */
+        -webkit-transform: rotate(30deg); /* Safari prior 9.0 */
+        transform: rotate(30deg);
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .box1 {
+        position: absolute;
+        width: 70%; height: 60%;
+        top:0; bottom: 0; left: 0; right: 0; margin: auto;
+    }
+    #box1_pink { top:5%; left:10%;}
+    #box1_blue { top:15%; right:15%; }
+    .fst_txt {
+        position: absolute;
+        width: 60%; height: 150px;
+        top: 20%; bottom: 0; left: 0; right: 10%; margin: auto;
+        color: #FFFFFF;
+        font-size: 200%;
+        font-family: Arial;
+        font-style: italic;
+        line-height: 90%;
+    }
+    .fst_txt>h4 {
+        width: 150%;
+        font-size: 100%;
+        font-style: normal;
+    }
+    .img1 {
+        width: 100%; 
+        height: 50%; 
+        -ms-transform: rotate(230deg); /* IE 9 */
+        -webkit-transform: rotate(230deg); /* Safari prior 9.0 */
+        transform: rotate(230deg);
+        top: -10%;
+        left: 30%;
+    }
+    .img2 {
+        width: 50%; 
+        height: 50%; 
+        -ms-transform: rotate(30deg); /* IE 9 */
+        -webkit-transform: rotate(30deg); /* Safari prior 9.0 */
+        transform: rotate(30deg);
+        top: 70%;
+        right: 60%;
+    }
+    #hWithLogo {
+        display: inline;
+    }
+    #logo {
+        width: 6%;
+    }
+    /*-------ABOUT ME--------*/
+    .box2 {
+        position: absolute;
+        width: 200%; height: 50%;
+        top: 10%; bottom: 0; left: -70%; right: 0; margin: 0 auto;
+        -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Safari prior 9.0 */
+        transform: rotate(20deg);
+        z-index: 1;
+    }
+    .scnd {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scnd_txt {
+        width: 66%;
+        color: #F4B798;
+        font-size: 200%;
+        line-height: 50%;
+        z-index: 1;
+    }
+    .scnd_txt> p {
+        width: 85%;
+        margin-left: 7%;
+        padding: 3%;
+        font-size: 100%;
+        line-height: 130%;
+        border: 1px solid #F4B798;
+    }
+    .img3 {
+        width: 90%; 
+        height: 55%;
+        -ms-transform: rotate(230deg); /* IE 9 */
+        -webkit-transform: rotate(230deg); /* Safari prior 9.0 */
+        transform: rotate(230deg);
+        top: -10%;
+        left: 50%;
+        z-index: 1;
+    }
+    .img4 {
+        width: 70%; 
+        height: 50%;
+        -ms-transform: rotate(320deg); /* IE 9 */
+        -webkit-transform: rotate(320deg); /* Safari prior 9.0 */
+        transform: rotate(320deg);
+        top: 55%;
+        right: 60%;
+    }
+    /*-------WORKS--------*/
+    .box3 {
+        position: absolute;
+        width: 200%; 
+        height: 40%;
+        top: 20%; 
+        bottom: 0; 
+        left: -50%; 
+        right: 0; 
+        margin: 0 auto;
+        -ms-transform: rotate(320deg); /* IE 9 */
+        -webkit-transform: rotate(320deg); /* Safari prior 9.0 */
+        transform: rotate(320deg);
+        z-index: -1;
+        background: #FBE7CC;
+    }
+    .thrd {
+       color: #F4B798;
+       font-size: 140%;
+       height: 90vh;
+       margin-bottom: 15%;
+    }
+    .thrd> h1 {
+        padding-top: 10%; 
+        padding-left: 3%;
+        font-size: 160%;
+    } 
+    .works {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .work {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 180px;
+        color: white;
+        font-size: 130%;
+    }
+    .work> p {
+        padding-left: 10%;
+        width: 100%;
+    }
+    .w1 {
+        background-image: url("../img/After Long Day.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .articals {
+        display: flex; 
+        flex-wrap: wrap; 
+        width: 100%; 
+        height: 200px;
+        overflow-x: scroll;
+        align-items: center;
+        justify-content: center;
+    }
+    .ar1 {
+        width: 50%; 
+        height: 200px; 
+        background: #F7A969;
+    }
+    .ar2 {
+        width: 50%; 
+        height: 200px; 
+        background: #BADCCB;
+    }
+    .ar12 {
+        width: 54%; 
+        display: flex;
+    }
+    .ar3 {
+        width: 26%; 
+        height: 200px; 
+        background: #61AB9C;
+    }
+    .artical {
+        display: flex; 
+        align-items: center; 
+        position: relative; 
+        overflow: hidden;
+    }
+    .artical>p {
+        color: white;
+        font-size: 130%;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-bottom: 10%;
+        z-index: 1;
+    }
+    .artical>img {
+        position: absolute;
+        height: 60%;
+        opacity: 0.7;
+    }
+    .ar1>img {
+        top: 30%;
+        left: 40%;
+    }
+    .ar2>img {
+        top: 30%;
+        left: 40%;
+    }
+    .ar3>img {
+        top: 30%;
+        left: 40%;
+    }
+    .img5 {
+        width: 90%; 
+        height: 45%;
+        -ms-transform: rotate(330deg); /* IE 9 */
+        -webkit-transform: rotate(330deg); /* Safari prior 9.0 */
+        transform: rotate(330deg);
+        top: 70%;
+        left: 50%;
+        z-index: -1;
+    }
+    /*-------FOOTER--------*/
+    footer {
+        color: white;
+        position: relative;
+        font-size: 180%;
+        text-align: center;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        overflow: hidden;
+    }
+    footer> img {
+        width: 70%;
+        position: absolute;
+        bottom: -50%;
+        right: 60%;
+        opacity: 0.7;
+        -ms-transform: rotate(30deg); /* IE 9 */
+        -webkit-transform: rotate(30deg); /* Safari prior 9.0 */
+        transform: rotate(30deg);
+    }
+}
+@media screen and (min-width:1024px){
+    .container {
+        width: 80%; 
+        height: 100%;
+        margin: 0 auto; 
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border: 2px solid #F4B798;
+        overflow-x: hidden;
+    }
+    .box1 {
+        position: absolute;
+        width: 40%; height: 60%;
+        top:0; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        margin: 0 auto;
+    }
+    #box1_pink { 
+        top: 10%; 
+        left:10%;
+    }
+    #box1_blue { 
+        top: 20%; 
+        right:15%; 
+    }
+    .fst_txt {
+        position: absolute;
+        width: 35%; 
+        height: 150px;
+        top: 30%; 
+        bottom: 0; 
+        left: 0; 
+        right: 8%; 
+        margin: 0 auto;
+        color: #FFFFFF;
+        font-size: 200%;
+        font-family: Arial;
+        font-style: italic;
+        line-height: 90%;
+    }
+    .fst_txt>h4 {
+        width: 150%;
+        font-size: 100%;
+        font-style: normal;
+    }
+    .img1 {
+        width: 100%; 
+        height: 70%; 
+        -ms-transform: rotate(230deg); /* IE 9 */
+        -webkit-transform: rotate(230deg); /* Safari prior 9.0 */
+        transform: rotate(230deg);
+        top: -60%;
+        left: 10%;
+    }
+    .img2 {
+        width: 50%; 
+        height: 80%; 
+        -ms-transform: rotate(40deg); /* IE 9 */
+        -webkit-transform: rotate(40deg); /* Safari prior 9.0 */
+        transform: rotate(40deg);
+        top: 50%;
+        right: 60%;
+    }
+    #hWithLogo {
+        display: inline;
+    }
+    #logo {
+        width: 8%;
+    }
+    /*-------ABOUT ME--------*/
+    .box2 {
+        position: absolute;
+        width: 200%; 
+        height: 50%;
+        top: 10%; 
+        bottom: 0; 
+        left: -70%; 
+        right: 0;
+        margin: 0 auto;
+        -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Safari prior 9.0 */
+        transform: rotate(20deg);
+        z-index: 1;
+    }
+    .scnd {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scnd_txt {
+        width: 60%;
+        color: #F4B798;
+        font-size: 200%;
+        line-height: 50%;
+        z-index: 1;
+    }
+    .scnd_txt> p {
+        width: 85%;
+        margin-left: 7%;
+        padding: 3%;
+        font-size: 100%;
+        line-height: 130%;
+        border: 1px solid #F4B798;
+    }
+    .img3 {
+        width: 90%; 
+        height: 70%;
+        -ms-transform: rotate(230deg); /* IE 9 */
+        -webkit-transform: rotate(230deg); /* Safari prior 9.0 */
+        transform: rotate(230deg);
+        top: -40%;
+        left: 30%;
+        z-index: 1;
+    }
+    .img4 {
+        width: 70%; 
+        height: 50%;
+        -ms-transform: rotate(320deg); /* IE 9 */
+        -webkit-transform: rotate(320deg); /* Safari prior 9.0 */
+        transform: rotate(320deg);
+        top: 30%;
+        right: 50%;
+    }
+    /*-------WORKS--------*/
+    .box3 {
+        position: absolute;
+        width: 200%; 
+        height: 40%;
+        top: 20%; 
+        bottom: 0; 
+        left: -50%; 
+        right: 0; 
+        margin: 0 auto;
+        -ms-transform: rotate(340deg); /* IE 9 */
+        -webkit-transform: rotate(340deg); /* Safari prior 9.0 */
+        transform: rotate(340deg);
+        z-index: -1;
+        background: #FBE7CC;
+    }
+    .thrd {
+        margin: auto;
+        width: 60%;
+        color: #F4B798;
+        font-size: 140%;
+        height: 90vh;
+        margin-bottom: 15%;
+    }
+    .thrd> h1 {
+        text-align: center;
+        font-size: 150%;
+        
+    } 
+    .works {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+    .work {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        width: 30%;
+        height: 200px;
+        color: white;
+        font-size: 110%;
+        border-radius: 3px;
+        box-shadow: 5px 5px 5px 5px rgba(136, 136, 136, 0.21);
+    }
+    .work> p {
+        text-align: center;
+        width: 100%;
+        background: #F4B798;
+        bottom: 0;
+        margin: 0 auto;
+        padding: 2%;
+    }
+    .w1 {
+        background-image: url("../img/After Long Day.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .articals {
+        display: flex; 
+        flex-wrap: wrap; 
+        width: 100%; 
+        height: 200px;
+
+        align-items: center;
+        justify-content: center;
+    }
+    .ar1 {
+        width: 50%; 
+        height: 200px; 
+        background: #F7A969;
+    }
+    .ar2 {
+        width: 50%; 
+        height: 200px; 
+        background: #BADCCB;
+    }
+    .ar12 {
+        width: 63%; 
+        display: flex;
+    }
+    .ar3 {
+        width: 29%; 
+        height: 200px; 
+        background: #61AB9C;
+    }
+    .artical {
+        display: flex;
+        align-items: center; 
+        position: relative; 
+        overflow: hidden;
+        margin-left: 3%; 
+        margin-right: 3%;
+        border-radius: 3px;
+        box-shadow: 5px 5px 5px 5px rgba(136, 136, 136, 0.21);
+    }
+    .artical>p {
+        color: white;
+        font-size: 110%;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-bottom: 10%;
+        z-index: 1;
+    }
+    .artical>img {
+        position: absolute;
+        height: 60%;
+        opacity: 0.7;
+    }
+    .ar1>img {
+        top: 30%;
+        left: 40%;
+    }
+    .ar2>img {
+        top: 30%;
+        left: 35%;
+    }
+    .ar3>img {
+        top: 30%;
+        left: 35%;
+    }
+    .img5 {
+        width: 90%; 
+        height: 65%;
+        -ms-transform: rotate(330deg); /* IE 9 */
+        -webkit-transform: rotate(330deg); /* Safari prior 9.0 */
+        transform: rotate(330deg);
+        top: 70%;
+        left: 90%;
+        z-index: -1;
+    }
+    /*-------FOOTER--------*/
+    footer {
+        color: white;
+        position: relative;
+        font-size: 110%;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        overflow: hidden;
+    }
+    footer> img {
+        width: 40%;
+        position: absolute;
+        bottom: -90%;
+        right: 70%;
+        opacity: 0.7;
+        -ms-transform: rotate(30deg); /* IE 9 */
+        -webkit-transform: rotate(30deg); /* Safari prior 9.0 */
+        transform: rotate(30deg);
+    }
+}
